@@ -1,18 +1,21 @@
-# Designer Furniture Website — Loft & Co
+# LOFT & CO
 
-This is a modern front-end website for a designer furniture brand featuring the 2026 Collection. The site showcases premium furniture in loft, minimalist, and Scandinavian modern styles. It was built using HTML, CSS, and JavaScript.
+Landing page for a fictional furniture brand. Single HTML file, no build step, no dependencies.
+Just open `index.html` in a browser.
 
-## Tech Stack
-* HTML5
-* JavaScript
+## What it does
 
-## Development Details
-The website is built using vanilla frontend technologies and styled with Tailwind CSS via CDN. 
-No build tools or bundlers are required to run this project.
-The layout is fully adaptive and works on all device screen sizes.
+- English / Danish switch, saved in localStorage
+- Cart with quantity controls, also saved locally
+- Filter products by category
+- Fly-to-cart animation when you add something
+- Smooth animations on cards, counters and the hero section
+- Works on mobile
 
-## How to open it
-You do not need to install anything or run a server. Just download the files to your computer and double-click on the `index.html` file to open the website in your browser.
+## Stack
 
-## Personal Note
-I am a beginner and I used AI to help me clean up the CSS design and get some layout ideas for the furniture catalog.
+HTML, CSS and vanilla JavaScript. Tailwind is loaded from a CDN, everything else is hand-written.
+
+## Running it
+
+Open the file. Or if you want a local server:
