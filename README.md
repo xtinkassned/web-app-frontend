@@ -1,21 +1,9 @@
 # LOFT & CO
 
-Landing page for a fictional furniture brand. Single HTML file, no build step, no dependencies.
-Just open `index.html` in a browser.
+A landing page for a fictional furniture shop.
 
-## What it does
+Built with HTML, CSS and vanilla JavaScript. Tailwind CSS is loaded via CDN.
 
-- English / Danish switch, saved in localStorage
-- Cart with quantity controls, also saved locally
-- Filter products by category
-- Fly-to-cart animation when you add something
-- Smooth animations on cards, counters and the hero section
-- Works on mobile
+The page has English and Danish languages, product filters, a shopping cart with quantity controls, and a few animations. The cart and language preference are saved in localStorage.
 
-## Stack
-
-HTML, CSS and vanilla JavaScript. Tailwind is loaded from a CDN, everything else is hand-written.
-
-## Running it
-
-Open the file. Or if you want a local server:
+Open `index.html` in your browser to run it. No build setup needed.
